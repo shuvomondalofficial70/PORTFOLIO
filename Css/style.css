@@ -15,6 +15,10 @@ a {
     gap: 120px;
 }
 
+.xl-gap {
+    gap: 60px;
+}   
+
 .max-gap {
     gap: 30px;
 }
@@ -118,6 +122,11 @@ a {
     height: auto;
 }
 
+
+
+.hero-Img-box{
+    width: 41%;
+}
 
 
 .hero-content-box {
@@ -318,8 +327,11 @@ a {
 }
 
 .skill-image-box {
-    width: 30%;
-    height: 75vh;
+    width: 35%;
+    height: 80vh;
+    border-radius: 5px;
+    overflow: hidden;
+    backdrop-filter: brightness(40%);
 }
 
 .skill-content-box{
@@ -327,8 +339,71 @@ a {
     height: auto;
 }
 
+.skill-content-box h3 {
+    font-size: 35px;
+    font-family: "popince" sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.skill-content-box h6 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #707270;
+    margin-bottom: 10px;
+}
+
 .skill-bar{
     width: 100%;
-    height: 8px;
-    background: #000;
+    height: 6px;
+    background: #F6F6F6;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.sill-info h6{
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    margin-bottom: 10px !important;
+}
+
+
+.UI-lenght{
+    width: 80%;
+    height: 6px;
+    background: #007E6A;
+}
+.Technology-length{
+    width: 90%;
+    height: 6px;
+    background: #007E6A;
+}
+.Branding-length{
+    width: 60%;
+    height: 6px;
+    background: #007E6A;
+}
+.Responsive-length{
+    width: 80%;
+    height: 6px;
+    background: #007E6A;
+}
+
+#summary {
+    width: 100%;
+    height: auto;
+    padding: 40px 0;  
+    background: #F6F6F6;  
+}
+
+
+.summary-container h3 {
+    font-size: 35px;
+    font-family: "popince" sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.summary-container a{
+    color: #000;
 }
